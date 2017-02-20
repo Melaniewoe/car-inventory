@@ -19,9 +19,13 @@ This program is to manage a car dealership. This will be a menu driven system. T
 8:   Write inventory to file and exit
 
 This program contains: main.cpp, functions.h, vehicle.h, vehicle.cpp.
+
 cpp: the driver file.
+
 h: contain your global functions for each of the menu items (display, addVehicle, deleteVehicle, editVehicle, etc).
+
 h: contain the class declaration.
+
 cpp: contain the class implantation.
  
 The vehicle objects will be stored in a vector. Each menu item will have a corresponding function, and the definition of the function will be found in the file functions.h.  Each function will only have one parameter, the vector.  All I/O will be done in the functions.
